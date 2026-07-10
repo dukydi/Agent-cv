@@ -20,8 +20,8 @@ L'agent ne ment jamais : il ne crée pas d'expérience qui n'existe pas, ne mini
 ---
 
 
-- **Rendu PPTX local** via `python-pptx` (V1 l'avait depuis Phase 3, Carbone.io retiré dans les deux versions)
-- **Template Golden Source** (V1 utilisait l'ancien template, V2 utilise la v2 qui a une grille 3×3 de compétences au lieu de 2 colonnes)
+- **Rendu PPTX local** via `python-pptx` 
+- **Template Golden Source**
 - **Multi-versions CV** supporté
 - **Anti-hallucination** strict avec flags `[[À compléter]]` / `[[À arbitrer]]`
 - **CLI + API HTTP** disponibles
