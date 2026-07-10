@@ -3,7 +3,7 @@
 Agent IA qui adapte automatiquement le CV d'un consultant au vocabulaire et aux exigences d'un appel d'offres (AO).
 
 **Entrée** : 1 à N versions du CV (PDFs) + 1 AO (PDF ou texte).
-**Sortie** : un PPTX 1 page au format Golden Source Colombus, prêt à envoyer.
+**Sortie** : un PPTX 1 page au format Golden Source, prêt à envoyer.
 
 ---
 
@@ -21,7 +21,7 @@ L'agent ne ment jamais : il ne crée pas d'expérience qui n'existe pas, ne mini
 
 
 - **Rendu PPTX local** via `python-pptx` (V1 l'avait depuis Phase 3, Carbone.io retiré dans les deux versions)
-- **Template Golden Source Colombus** (V1 utilisait l'ancien template, V2 utilise la v2 qui a une grille 3×3 de compétences au lieu de 2 colonnes)
+- **Template Golden Source** (V1 utilisait l'ancien template, V2 utilise la v2 qui a une grille 3×3 de compétences au lieu de 2 colonnes)
 - **Multi-versions CV** supporté
 - **Anti-hallucination** strict avec flags `[[À compléter]]` / `[[À arbitrer]]`
 - **CLI + API HTTP** disponibles
@@ -45,7 +45,7 @@ L'agent ne ment jamais : il ne crée pas d'expérience qui n'existe pas, ne mini
                                           │                         │
                                           │   Packer round    │  →  PPTX
                                           │   + Auto-shrink         │   1 page
-                                          │   + Template Colombus   │
+                                          │   + Template    │
                                           │                         │
                                           └─────────────────────────┘
 ```
