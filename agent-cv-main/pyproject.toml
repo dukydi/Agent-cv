@@ -1,0 +1,12 @@
+[project]
+name = "agent-cv"
+version = "2.0.0"
+description = "Agent CV Colombus — adaptation de CV à un AO (V2 : pipeline découpé, rendu PPTX local)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+markers = [
+    "live: tests qui font de vrais appels API (coûte de l'argent)",
+    "visual: tests qui produisent un fichier PPTX réel dans output/ pour inspection visuelle",
+]
+testpaths = ["tests"]
