@@ -13,3 +13,4 @@ venv/
 !/input/cv-test2.pdf
 !/input/cv-test3.pdf
 !/input/ao-test.pdf
+.DS_Store
