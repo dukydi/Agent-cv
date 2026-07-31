@@ -1,0 +1,15 @@
+.env
+output/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Données réelles (CV nominatifs / AO clients) — ne jamais versionner.
+# Seules les fixtures génériques cv-test*/ao-test sont suivies.
+/input/*.pdf
+!/input/cv-test1.pdf
+!/input/cv-test2.pdf
+!/input/cv-test3.pdf
+!/input/ao-test.pdf
